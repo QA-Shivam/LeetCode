@@ -2,7 +2,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class solution{
-    public static int longestnonrepeatingsubstr(String str ){
+    public static int lengthOfLongestSubstring(String str ){
         int right=0;
         int left=0;
         int maxlen=0;
@@ -22,6 +22,6 @@ public class solution{
 
     }
     public static void main(String[] args) {
-        System.out.println(longestnonrepeatingsubstr("Shivam"));
+        System.out.println(lengthOfLongestSubstring("Shivam"));
     }
 }
