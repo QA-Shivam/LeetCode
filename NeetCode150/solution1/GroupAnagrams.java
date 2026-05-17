@@ -18,6 +18,7 @@ public class GroupAnagrams {
         for(int i : freq){
             sb.append(c);
             sb.append(i);
+            c++;
         }
 
         return sb.toString();
